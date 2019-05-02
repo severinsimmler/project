@@ -19,13 +19,17 @@ $ pip install project
 
 
 ## Developing
-[Pipenv](https://pipenv.readthedocs.io/en/latest/) automatically creates and manages a virtualenv for the dependencies. To install the project's dependencies:
-
+[Pipenv](https://pipenv.readthedocs.io/en/latest/) automatically creates and manages a virtualenv for the dependencies. Install the project's dependencies with:
 ```
 $ pipenv install --dev
 ```
 
-Build the project with [Poetry](https://poetry.eustace.io/):
+run the tests:
+```
+$ pipenv run tests
+```
+
+build the project with [Poetry](https://poetry.eustace.io/):
 ```
 $ poetry build
 ```
