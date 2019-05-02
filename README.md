@@ -24,6 +24,16 @@ $ pip install project
 $ poetry install
 ```
 
+run tests:
+```
+$ poetry run pytest
+```
+
+format code:
+```
+$ poetry run black
+```
+
 build the project:
 ```
 $ poetry build
