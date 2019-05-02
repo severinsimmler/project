@@ -19,7 +19,9 @@ $ pip install project
 
 
 ## Developing
-[Pipenv](https://pipenv.readthedocs.io/en/latest/) automatically creates and manages a virtualenv for the dependencies. Install the project's dependencies with:
+[Pipenv](https://pipenv.readthedocs.io/en/latest/) automatically creates and manages a virtualenv, [Poetry](https://poetry.eustace.io/) builds and uploads the project to [PyPI](https://pypi.org/).
+
+Install dependencies with:
 ```
 $ pipenv install --dev
 ```
@@ -29,7 +31,7 @@ run the tests:
 $ pipenv run tests
 ```
 
-build the project with [Poetry](https://poetry.eustace.io/):
+build the project:
 ```
 $ poetry build
 ```
