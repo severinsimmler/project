@@ -24,7 +24,7 @@ $ pip install project
 $ poetry install
 ```
 
-build project:
+build the project:
 ```
 $ poetry build
 ```
