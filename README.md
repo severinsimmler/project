@@ -19,19 +19,19 @@ $ pip install project
 
 
 ## Developing
-[Pipenv](https://pipenv.readthedocs.io/en/latest/) automatically creates and manages a virtualenv, [Poetry](https://poetry.eustace.io/) builds and uploads the project to [PyPI](https://pypi.org/).
+[Pipenv](https://pipenv.readthedocs.io/en/latest/) automatically creates and manages a virtual environment, [Poetry](https://poetry.eustace.io/) builds and uploads the project to [PyPI](https://pypi.org/) – instead of letting both tools [war on each other](https://frostming.com/2018/05-15/pipenv-vs-poetry), you should use the best of both.
 
 Install dependencies with:
 ```
 $ pipenv install --dev
 ```
 
-run the tests:
+run tests:
 ```
 $ pipenv run tests
 ```
 
-build the project:
+build project:
 ```
 $ poetry build
 ```
