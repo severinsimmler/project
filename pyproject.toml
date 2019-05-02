@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "project"
+author = "Severin Simmler"
+author-email = "severin.simmler@posteo.de"
+home-page = "https://github.com/severinsimmler/project/"
+requires=["numpy"]
+requires-python=">=3.6"
+description-file="README.md"
+
+[testpypi]
+repository="https://test.pypi.org/legacy/"
+username="severinsimmler"
